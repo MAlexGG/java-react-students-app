@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/student")
+@RequestMapping("/")
 @CrossOrigin
 public class StudentController {
     @Autowired
